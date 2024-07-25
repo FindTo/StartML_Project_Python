@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from loguru import logger
 from database import SessionLocal
 from sqlalchemy.orm import Session
-from sqlalchemy import desc
+from sqlalchemy import desc, func
 from table_post import Post
 from table_user import User
 from table_feed import Feed
@@ -53,3 +53,13 @@ def get_user_feed(id: int, limit: int = 10, db: Session = Depends(get_db)):
 def get_post_feed(id: int, limit: int = 10, db: Session = Depends(get_db)):
 
     return db.query(Feed).filter(Feed.post_id == id).order_by(desc(Feed.time)).limit(limit).all()
+
+@app.get("/post/recommendations/", response_model=List[PostGet])
+def get_post_recomended(id: int, limit: int = 10, db: Session = Depends(get_db)):
+
+    post_liked = db.query(Post, func.count(Feed.user_id)).select_from(Feed
+                          ).join(Post, Feed.post_id == Post.id).filter(Feed.action == 'like'
+                                   ).group_by(Post
+                                              ).order_by(desc(func.count(Feed.user_id))).limit(limit).all()
+
+    return [x[0] for x in post_liked]

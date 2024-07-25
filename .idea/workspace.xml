@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee63df32-2cf7-426b-aa2a-95d94dc06df5" name="Changes" comment="Add sophisticated SQL query from &quot;users&quot; table, step 10.5">
-      <change afterPath="$PROJECT_DIR$/sources/schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sources/table_feed.py" afterDir="false" />
+    <list default="true" id="ee63df32-2cf7-426b-aa2a-95d94dc06df5" name="Changes" comment="Step 10.10: FastAPI integration with get-endpoints">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/sources/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721680547797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Step 10.10: FastAPI integration with get-endpoints">
+      <option name="closed" value="true" />
+      <created>1721915701392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721915701392</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add sophisticated SQL query from &quot;users&quot; table, step 10.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add sophisticated SQL query from &quot;users&quot; table, step 10.5" />
+    <MESSAGE value="Step 10.10: FastAPI integration with get-endpoints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Step 10.10: FastAPI integration with get-endpoints" />
   </component>
 </project>
