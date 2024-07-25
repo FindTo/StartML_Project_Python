@@ -2,3 +2,4 @@ sqlalchemy == 2.0.31
 loguru == 0.7.2
 pydantic == 2.8.2
 psycopg2-binary == 2.9.9
+fastapi == 0.111.1
