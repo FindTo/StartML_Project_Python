@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee63df32-2cf7-426b-aa2a-95d94dc06df5" name="Changes" comment="Step 10.11: the final endpoint with the top of likes">
-      <change beforePath="$PROJECT_DIR$/.idea/FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FinalProject_PythonModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,13 +89,41 @@
       <option name="project" value="LOCAL" />
       <updated>1721932407622</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V.1.0, checked project files, .gitignore aligned">
+      <option name="closed" value="true" />
+      <created>1730393101561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730393101561</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="1a807956-b4bc-491e-b2e1-48d5f932f6e2" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="TAB_STATES">
@@ -137,6 +165,7 @@
     <MESSAGE value="Add sophisticated SQL query from &quot;users&quot; table, step 10.5" />
     <MESSAGE value="Step 10.10: FastAPI integration with get-endpoints" />
     <MESSAGE value="Step 10.11: the final endpoint with the top of likes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 10.11: the final endpoint with the top of likes" />
+    <MESSAGE value="V.1.0, checked project files, .gitignore aligned" />
+    <option name="LAST_COMMIT_MESSAGE" value="V.1.0, checked project files, .gitignore aligned" />
   </component>
 </project>
